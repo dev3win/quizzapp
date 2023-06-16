@@ -1,16 +1,37 @@
-# quizzapp
+# QuizzApp
 
-A new Flutter project.
+QuizzApp is an interactive mini quiz application developed with Flutter. This is a mockup for beginners. I have used Cubit in it which may be helpful in understanding what state management looks like.
 
-## Getting Started
+## Views:
+<div style="overflow-x: scroll; white-space: nowrap;">
+<img src="https://github.com/dev3win/silentsymphony-privacy/blob/main/screenshots_quizzapp/first_question.png" alt="Full Page Player" style="display: inline-block; width: 300px;">
+  <img src="https://github.com/dev3win/silentsymphony-privacy/blob/main/screenshots_quizzapp/failed.png"" alt="Bottom Player" style="display: inline-block; width: 300px;">
+  <img src="https://github.com/dev3win/silentsymphony-privacy/blob/main/screenshots_quizzapp/passed.png"" alt="Compose" style="display: inline-block; width: 300px;">
+  <img src="https://github.com/dev3win/silentsymphony-privacy/blob/main/screenshots_quizzapp/second_question.png" alt="Set Time" style="display: inline-block; width: 300px;">
+  <img src="https://github.com/dev3win/silentsymphony-privacy/blob/main/screenshots_quizzapp/third_question.png" alt="Custom Time" style="display: inline-block; width: 300px;">
+</div>
 
-This project is a starting point for a Flutter application.
+## Requirements
 
-A few resources to get you started if this is your first Flutter project:
+To run this project, you will need:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart
+- Android / iOS emulator / or a real device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+Clone this repository to your local environment. Navigate to the project folder and run:
+
+```bash
+flutter pub get
+flutter run
+```
+## Demo
+
+You can try out the live demo of the app [here](http://dev.3win.pl/quizzapp).
+
+
+## License
+
+This project is licensed under the MIT License.

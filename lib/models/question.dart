@@ -16,18 +16,18 @@ List<Question> getQuestions() {
   List<Question> list = [];
 
   list.add(Question(
-    "Co to jest Cubit?",
+    "What is Cubit?",
     [
-      Answer("Architektura aplikacji", false),
-      Answer("Zbiór widgetów Fluttera", false),
-      Answer("Biblioteka do zarządzania stanem", true),
-      Answer("Język programowania", false),
-      Answer("Framework do budowy UI", false),
+      Answer("Application architecture", false),
+      Answer("Collection of Flutter widgets", false),
+      Answer("State management library", true),
+      Answer("Programming language", false),
+      Answer("UI building framework", false),
     ],
   ));
 
   list.add(Question(
-    "Jakiej biblioteki jest częścią Cubit?",
+    "Which library is Cubit part of?",
     [
       Answer("Redux", false),
       Answer("Provider", false),
@@ -38,36 +38,34 @@ List<Question> getQuestions() {
   ));
 
   list.add(Question(
-    "Jaki jest domyślny stan Cubit?",
+    "What is the default state of Cubit?",
     [
       Answer("null", false),
       Answer("0", false),
       Answer("undefined", false),
-      Answer("Początkowy stan zdefiniowany przez dewelopera", true),
+      Answer("Initial state defined by the developer", true),
     ],
   ));
 
   list.add(Question(
-    "Czy Cubit posiada strumień do którego można nasłuchiwać zmiany stanu?",
+    "Does Cubit have a stream to listen for state changes?",
     [
-      Answer("Tak", true),
-      Answer("Nie", false),
+      Answer("Yes", true),
+      Answer("No", false),
     ],
   ));
 
   list.add(Question(
-    "Jakie są dwa podstawowe elementy zarządzania stanem w bibliotece Bloc?",
+    "What are the two basic elements of state management in the Bloc library?",
     [
-      Answer("State i Event", false),
-      Answer("Bloc i Provider", false),
-      Answer("Cubit i Bloc", true),
-      Answer("Cubit i Event", false),
-      Answer("State i Cubit", false),
-      Answer("Provider i Bloc", false),
+      Answer("State and Event", false),
+      Answer("Bloc and Provider", false),
+      Answer("Cubit and Bloc", true),
+      Answer("Cubit and Event", false),
+      Answer("State and Cubit", false),
+      Answer("Provider and Bloc", false),
     ],
   ));
 
   return list;
 }
-
-
